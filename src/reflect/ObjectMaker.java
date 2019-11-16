@@ -4,13 +4,13 @@ import java.io.Serializable;
 @SuppressWarnings("serial")
 public class ObjectMaker implements Serializable {
 	
-	boolean boolprimitive = true;
-	int intprimitive = 3;
-	char charprimitive = 'P';
-	float floatprimitive = 1.6f;
-	float reffloat = 6.0f;
+	boolean boolPrimitive = true;
+	int intPrimitive = 3;
+	char charPrimitive = 'P';
+	float floatPrimitive = 1.6f;
+	float refFloat = 6.0f;
 	
-	ObjectMakerRef makeRef = new ObjectMakerRef(reffloat);
+	ObjectMakerRef makeRef = new ObjectMakerRef(refFloat);
 	char[] array = {'1','3','5','7','9'};
 	
 	ObjectMakerRef[] makeRefArray = new ObjectMakerRef[3];
@@ -29,40 +29,40 @@ public class ObjectMaker implements Serializable {
 	}
 	
 	public void setreffloat( float reffloat) {
-		this.reffloat = reffloat;
+		this.refFloat = reffloat;
 	}
 	
 	
 	public void setboolprimitive(boolean boolprimitive) {
-		this.boolprimitive = boolprimitive;
+		this.boolPrimitive = boolprimitive;
 	}
 
 	public void setintprimitive(int intprimitive) {
-		this.intprimitive = intprimitive;
+		this.intPrimitive = intprimitive;
 	}
 	
 	public void setcharprimitive(char charprimitive) {
-		this.charprimitive = charprimitive;
+		this.charPrimitive = charprimitive;
 	}
 	
 	public void setfloatprimitive(float floatprimitive) {
-		this.floatprimitive = floatprimitive;
+		this.floatPrimitive = floatprimitive;
 	}
 	
 	public boolean getboolprimitive() {
-		return boolprimitive;
+		return boolPrimitive;
 	}
 	
 	public int getintprimitive() {
-		return intprimitive;
+		return intPrimitive;
 	}
 	
 	public char getcharprimitive() {
-		return charprimitive;
+		return charPrimitive;
 	}
 	
 	public float getfloatprimitive() {
-		return floatprimitive;
+		return floatPrimitive;
 	}
 	
 	
